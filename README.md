@@ -1,2 +1,2 @@
 # NixOS-dotfiles
-**this is my first git push**
+**these are dotfiles using NixOS 26.05 configured with Home Manager**
