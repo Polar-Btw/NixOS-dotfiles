@@ -9,7 +9,7 @@
   	enable = true;
 
   	shellAliases = {
-		nrs= "sudo nixos-rebuild switch --flake ~/Documents/nixos-dotfiles-kde";
+		nrs= "sudo nixos-rebuild switch --flake ~/Documents/nixos-dotfiles-kde#nixos-btw";
   		anime = "ani-cli -v";
   		ls = "tree";
 		sync = "sudo nix flake update --flake ~/Documents/nixos-dotfiles-kde";

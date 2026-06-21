@@ -3,7 +3,7 @@
   #programs main
   programs = {
   firefox.enable = true;
-  steam.enable = true;
+  steam.enable = false;
   obs-studio.enable = true;
   };
   
@@ -19,7 +19,7 @@
     wget
     libva-utils
    ];
-
+    
    # Home packages
    home-manager.users.aryu = { pkgs, ... }: {	
 	home.stateVersion = "26.05";
@@ -37,4 +37,7 @@
 		kdePackages.kdenlive
 	]; 
     };
+  
+  # Ignore warning
+  nix.extraOptions = '' warn-dirty = false '';
 }

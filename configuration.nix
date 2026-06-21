@@ -14,6 +14,9 @@
 
   # Enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
+  # enable flatpak 
+  services.flatpak.enable = true;
 	
   # hostname
   networking.hostName = "nixos-btw";
